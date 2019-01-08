@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "test": "truffle test",
+        "coverage": "SOLIDITY_COVERAGE=true ./node_modules/.bin/solidity-coverage"
+    },
+    "devDependencies": {
+        "coveralls": "^3.0.2",
+        "solidity-coverage": "^0.5.11",
+        "truffle": "^5.0.1"
+    }
+}
